@@ -236,10 +236,10 @@ public class TaskControllerDynamicAdmin {
 
 		if (myUserDto.getRole().contains("ADMIN")) {
 
-			return "admin-update-task-view-modular";
+			return "admin-update-task-view-table";
 		}
 
-		return "user-update-task-view-modular";
+		return "user-update-task-view-table";
 
 	}
 
